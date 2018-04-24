@@ -1,12 +1,23 @@
 all:
-  wikipedia.es:
-    version: "2018-08-10"
-    size: 19204380387
-    url: "http://download.kiwix.org/portable/wikipedia/kiwix-0.9+wikipedia_es_all_novid_2017-08.zip"
+  wikipedia_all_nopic.es:
+    version: "2018-04-23"
+    size: 9557090875
+    url: "http://download.kiwix.org/portable/wikipedia/kiwix-0.9+wikipedia_es_all_nopic_2018-04.zip"
     name: Wikipedia
     language: "spa"
     description: "De Wikipedia, la enciclopedia libre"
     id: "caf07434-7b74-8a95-f0e0-3e1b53016829"
-    sha256sum: "e017522db3a7a55f591492420c7421f605b0ff9bf5b415520f9afc32432a2267"
-    langid: "wikipedia.es"
+    sha256sum: "1842b7a1fd26236c4654b30ae25e118fda09cade2a266b9858321264557cb33a"
+    langid: "wikipedia_all_nopic.es"
+    type: zipped-zim
+  wikipedia_all_novid.es:
+    version: "2018-04-18"
+    size: 23265472257
+    url: "http://download.kiwix.org/portable/wikipedia/kiwix-0.9+wikipedia_es_all_novid_2018-04.zip"
+    name: Wikipedia
+    language: "spa"
+    description: "De Wikipedia, la enciclopedia libre"
+    id: "caf07434-7b74-8a95-f0e0-3e1b53016829"
+    sha256sum: "98ae52792f9b059f5635b972be2d509f474f1ec885439d299b099aafe2760257"
+    langid: "wikipedia_all_novid.es"
     type: zipped-zim
